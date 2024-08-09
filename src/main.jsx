@@ -50,6 +50,7 @@
 // );
 
 import React from "react";
+import "./index.css";
 import ReactDOM from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./routes/homepage/Homepage";
