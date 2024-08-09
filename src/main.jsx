@@ -67,9 +67,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Homepage />} />
-          <Route path="sign-in/*" element={<SignInPage />} />
-          <Route path="sign-up/*" element={<SignUpPage />} />
-          <Route path="dashboard" element={<DashboardLayout />}>
+          <Route path="/sign-in/*" element={<SignInPage />} />
+          <Route path="/sign-up/*" element={<SignUpPage />} />
+          <Route path="/dashboard" element={<DashboardLayout />}>
             <Route index element={<DashboardPage />} />
             <Route path="chats/:id" element={<ChatPage />} />
           </Route>
